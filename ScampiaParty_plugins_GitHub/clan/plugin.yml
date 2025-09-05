@@ -1,0 +1,11 @@
+name: Clan
+main: it.scampiaparty.clan.Main
+version: 1.0
+api-version: 1.8
+commands:
+  clan:
+    description: Comandi per gestire i clan
+permissions:
+  clan.use:
+    description: Permesso base clan
+    default: true

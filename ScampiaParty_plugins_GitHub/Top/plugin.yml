@@ -1,0 +1,13 @@
+name: Top
+main: it.scampiaparty.top.Main
+version: 1.0
+api-version: 1.8
+commands:
+  topplayers:
+    description: Mostra la top 10 dei player per kill
+  topclans:
+    description: Mostra la top 10 dei clan per kill
+permissions:
+  top.use:
+    description: Permesso base top
+    default: true

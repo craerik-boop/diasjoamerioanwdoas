@@ -1,0 +1,10 @@
+name: Permissions
+main: it.scampiaparty.permissions.Main
+version: 1.0
+api-version: 1.8
+commands:
+  giveperm:
+    description: Dai permessi a un giocatore
+permissions:
+  permissions.use:
+    default: op

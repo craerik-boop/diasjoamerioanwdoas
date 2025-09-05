@@ -1,0 +1,7 @@
+server-name: ScampiaParty
+mode: SkyPvP
+vip-cooldowns:
+  ladro: 5m
+  picciotto: 3m
+  spacciatore: 2m
+  capomafia: 1m

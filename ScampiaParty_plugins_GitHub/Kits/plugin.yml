@@ -1,0 +1,10 @@
+name: Kits
+main: it.scampiaparty.kits.Main
+version: 1.0
+api-version: 1.8
+commands:
+  kit:
+    description: Prendi un kit normale
+permissions:
+  kits.use:
+    default: true

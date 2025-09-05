@@ -1,0 +1,14 @@
+name: StaffRanks
+main: it.scampiaparty.staff.Main
+version: 1.0
+api-version: 1.8
+commands:
+  freeze:
+    description: Freeze player
+  inv:
+    description: Modalità invisibile
+  fly:
+    description: Abilita fly
+permissions:
+  staff.use:
+    default: op

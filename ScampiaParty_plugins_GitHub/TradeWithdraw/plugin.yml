@@ -1,0 +1,12 @@
+name: TradeWithdraw
+main: it.scampiaparty.trade.Main
+version: 1.0
+api-version: 1.8
+commands:
+  trade:
+    description: Avvia un trade
+  withdraw:
+    description: Effettua withdraw
+permissions:
+  trade.use:
+    default: true

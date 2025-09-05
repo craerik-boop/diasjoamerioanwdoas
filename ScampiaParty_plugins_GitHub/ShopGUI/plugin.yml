@@ -1,0 +1,10 @@
+name: ShopGUI
+main: it.scampiaparty.shop.Main
+version: 1.0
+api-version: 1.8
+commands:
+  shop:
+    description: Apri il negozio
+permissions:
+  shop.use:
+    default: true
