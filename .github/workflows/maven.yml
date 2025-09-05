@@ -20,6 +20,10 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
 
+    # Step di debug per controllare la struttura delle cartelle
+    - name: List repository structure
+      run: ls -R
+
     - name: Build all plugins
       run: |
         for d in */ ; do
@@ -28,6 +32,8 @@ jobs:
             cd "$d"
             mvn -B package --file pom.xml
             cd ..
+          else
+            echo "No pom.xml found in $d, skipping..."
           fi
         done
 
