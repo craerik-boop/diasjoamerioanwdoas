@@ -20,7 +20,7 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
 
-    - name: Build with Maven
+    - name: Build all plugins
       run: |
         for d in */ ; do
           if [ -f "$d/pom.xml" ]; then
@@ -31,8 +31,8 @@ jobs:
           fi
         done
 
-    - name: Upload jars
+    - name: Upload JARs
       uses: actions/upload-artifact@v4
       with:
         name: plugin-jars
-        path: '**/target/*.jar'
+        path: ./**/target/*.jar
